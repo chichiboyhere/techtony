@@ -329,6 +329,15 @@ tr {
   gap: 0.5em;
 }
 
+.pulseLoader__display{
+  min-height: 100vh;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 2rem;
